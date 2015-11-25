@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-<head>
-    <title>Connect Aid</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->    
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles-4.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head> 
+<?php include("includes/head.php"); ?>
 
 <body data-spy="scroll">
     
@@ -61,6 +34,8 @@
                         <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
                         <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
                         <li class="nav-item"><a class="scrollto" href="#docs">Documentation</a></li>
+                              <li class="nav-item"><a class="scrollto" href="form.php">Give</a></li>
+                        <li class="nav-item"><a class="scrollto" href="/search.php">Get</a></li>
                         <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
@@ -74,8 +49,8 @@
             <h2 class="title">Connect<span class="highlight">Aid</span></h2>
             <p class="intro"> Platform where help is shared easily</p>
             <div class="btns">
-                <a class="btn btn-cta-secondary" href="" target="_blank">Give </a>
-                <a class="btn btn-cta-primary" href="" target="_blank">Get</a>
+                <a class="btn btn-cta-secondary" href="form.php">Give</a>
+                <a class="btn btn-cta-primary" href="searchlist.php">Get</a>
             </div>
             <ul class="meta list-inline">
                 <li><a href="#" target="_blank"> View on GitHub </a></li>
@@ -227,23 +202,6 @@
             </div><!--//contact-inner-->
         </div><!--//container-->
     </section><!--//contact-->  
-      
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container text-center">
-            <small class="copyright">All rights reserved © 2015 </i><a href="github" target="_blank">ConnectAid</a></small>
-            
-        </div><!--//container-->
-    </footer><!--//footer-->
-     
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
-    <script type="text/javascript" src="assets/js/main.js"></script>       
-</body>
-</html> 
+   <?php include("includes/footer.php"); ?>
+   
 
