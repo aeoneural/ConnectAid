@@ -55,7 +55,7 @@
             <ul class="meta list-inline">
                 <li><a href="#" target="_blank"> View on GitHub </a></li>
                 <li><a href="https://github.com/twbs/bootstrap" target="_blank">Full Documentation </a></li>
-                <li>Created by <a href="" target="_blank">Connect Aid Team</a> at NAU</li>
+                <li>Created by <a href="https://github.com/aikerim/connectaid" target="_blank">Connect Aid Team</a> at NAU</li>
             </ul><!--//meta-->
         </div><!--//container-->
         <div class="social-media">
@@ -71,9 +71,7 @@
                     <li class="facebook-like">
                          <div class="fb-like" data-href="http://themes.3rdwavemedia.com/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
                     </li><!--//facebook-like-->
-                    <!--// Generate github buttons: https://github.com/mdo/github-buttons -->
-                    <li class="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li>
-                    <li class="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe></li>
+                    
                     <!--//
                     <li class="github-follow"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&type=follow&count=true"
   allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe></li>
@@ -154,7 +152,7 @@
                 <h3 class="sub-title text-center">Full Documentation</h3>
                 <p>If your documentation is very long you can host the full docs page (including FAQ etc) on GitHub and provide a Call to Action button below to direct users there.</p>
                 <p class="text-center">
-                    <a class="btn btn-cta-primary" href="https://github.com/twbs/bootstrap" target="_blank">More on GitHub</a>
+                    <a class="btn btn-cta-primary" href="https://github.com/aikerim/connectaid" target="_blank">More on GitHub</a>
                 </p>
             </div><!--//block-->
             
@@ -173,17 +171,20 @@
             
                 <div class="author-message">                      
                     <div class="profile">
-                        <img class="img-responsive" src="assets/images/" alt="" />
+                        <img class="img-responsive" src="assets/images/volunteer.jpg" alt="" />
                     </div><!--//profile-->
                     <div class="speech-bubble">
                         <h3 class="sub-title">Welcome to ConnectAid!.</h3>
                       
-                        <p>If you would like to contribe to our open source project, please visit our github page. </p>
+                        <p>Our Mission is to make flexible and instant volunteering possible. <br><br> Beta version enables volunteers to register and people who need help to get the list of volunteers. 
+                            <br><br> Gamma version strikes to automatically match volunteers and people who need. </p>
                     
                         <div class="source">
-                            <span class="name"><a href="github" target="_blank">ConnectAid</a></span>
+                            <span class="name"><a href="https://github.com/aikerim/connectaid" target="_blank">ConnectAid</a></span>
                             <br />
                             <span class="title">Aygerim Sauletkhan</span>
+                            <br>
+                            <span class = "title "> Omer Habedy</span>
                         </div><!--//source-->
                     </div><!--//speech-bubble-->                        
                 </div><!--//author-message-->
@@ -191,11 +192,10 @@
                 <div class="info text-center">
                     <h4 class="sub-title">Get Connected</h4>
                     <ul class="social-icons list-inline">
-                        <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://twitter.com/aikyerim" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href=""><i class="fa fa-instagram"></i></a></li>  
-                        <li><a href=""><i class="fa fa-dribbble"></i></a></li>   
+                        <li><a href="https://linkedin.com/in/aikerim"><i class="fa fa-linkedin"></i></a></li>
+                          
                         <li class="last"><a href="mailto: asaulyetkhan@na.edu"><i class="fa fa-envelope"></i></a></li>              
                     </ul>
                 </div><!--//info-->
